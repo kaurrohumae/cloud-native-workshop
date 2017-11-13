@@ -1,0 +1,12 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: Kaur.Rohumae@smit.ee
+  api: https://api.run.pivotal.io
+  organization: kr-training-org
+  space: development
+  password:
+    secure: oOdTkW9gM4armjnSohLeUsIim3c4hBSUnCP9AbCdS2w3t1BZpI2dy7iSvEMsXpGtfn9xrRVyt85yfp8kMLPnnB9hUweL4YQBOetTaKuUCn9ZyZiUKNW03v31iBYCT4sw8UZQGHY49hacR9NGK3QhV7QEiJLuQvFEtjJYnhzmpFLT4v5nhXv4b2kXg897XDR6v3NJnJOFIPe7IzvVg0/MDHF08xux+xqjVa5Pz4MsL51vebYOYfi9LxN6VTVb/17ZhfLskaAlj/T9bZzAtMkUjnAC1FzCtKxMhqf1ghXLFpKOJ2hteyIf5uIC4IoCsq56VUbK07pEr6yvnR3Q1X0WObUECVkK0u8fu0ZexIImv8RIV/ixbt8agvHnUj4He4lF15IuDrQtvPhO7kfL1gymKQ8ufGR/tNiyZT8oPRPfW1ydE8wHjZlAyIqTEqArTq3pkfkl4poMdYb+K5P8qUKqC0T97kPJUHDoAJKECcoq385vA3iZTfWhnL4EbKqAir2SFN6lyDM5TxCgRTnXJPD37mbpu7MFvi9U3n92EfeCNZZmic00WiOR8jHGa85/Rkp63jILhFqGMIKjfnFRgnkLAlDbsLYfGFOK4X2BNyWLtX9cLZpKEGVpWF1itCZACWpHTGDPVVMswRY1BXnLdO1ADy0u0VOIF9rwOMLW72ISXHY=
