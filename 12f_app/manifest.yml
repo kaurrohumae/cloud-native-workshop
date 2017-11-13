@@ -3,5 +3,5 @@ applications:
   path: target/kr-12f_app-1.0-SNAPSHOT.jar
   memory: 1G
   services:
-  - kaur-db
-  - kaur-redis
+  - staging-db
+  - staging-redis
