@@ -1,0 +1,1 @@
+https://travis-ci.org/kaurrohumae/cloud-native-workshop.svg?branch=master
