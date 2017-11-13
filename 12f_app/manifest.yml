@@ -1,5 +1,5 @@
 applications:
-- name: kr-12f_app
+- name: kr-12f_app-2
   path: target/kr-12f_app-1.0-SNAPSHOT.jar
   memory: 1G
   services:
